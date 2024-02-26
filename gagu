@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #FED8B1;
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #FF4500;
+  text-shadow: 2px 2px #FFD700;
+}
+
+.choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.choice-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #FF4500;
+  color: #FFFFFF;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #FF6347;
+}
+
+</style>
+</head>
+<body>
+
+<h1>hoy ano gusto mo kainin pag nagkita tayo sa fairview, sagot</h1>
+
+<div class="choice">
+  <img class="choice-image" src="donut.jpg" alt="Donut">
+  <button class="button" onclick="window.location.href='http://1LSW1itcksEQ9FA:dD752h9faEcQgWh@localhost:10909/storage/emulated/0/monggi2.html';">a. Donut</button>
+</div>
+
+<div class="choice">
+  <img class="choice-image" src="fries.jpg" alt="Fries">
+  <button class="button" onclick="window.location.href='http://1LSW1itcksEQ9FA:dD752h9faEcQgWh@localhost:10909/storage/emulated/0/monggi2.html';">b. Fries</button>
+</div>
+
+<div class="choice">
+  <img class="choice-image" src="bonchon.jpg" alt="Bonchon">
+  <button class="button" onclick="window.location.href='http://1LSW1itcksEQ9FA:dD752h9faEcQgWh@localhost:10909/storage/emulated/0/monggi2.html';">c. Bonchon ulit</button>
+</div>
+
+</body>
+</html>
